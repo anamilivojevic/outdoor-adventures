@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Epilogue";
+  src: url(../fonts/Epilogue-VariableFont_wght.ttf);
+}
+
+body {
+  /* background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 237, 222)); */
+  font-family: "Epilogue" !important;
+  color: rgb(45, 54, 44);
+}
+
+#logo {
+  max-width: 100%;
+  max-height: 50px;
+}
+
+.c-text-dark-green {
+  color: rgb(53, 66, 52);
+}
+
+.c-bg-dark-green {
+  background-color: rgb(53, 66, 52);
+}
+
+.c-text-light-green {
+  color: rgb(204, 229, 200) !important;
+}
+
+.c-text-light-green :hover {
+  color: rgb(184, 225, 191) !important;
+}
+
+.c-bg-beige {
+  background-color: beige !important;
+}
+
+.navigation li:hover {
+  color: rgb(184, 225, 191);
+}
+
+#header-banner {
+  background: url("../images/banner3.jpg") no-repeat center;
+  width: 100%;
+  background-size: cover;
+}
+
+#banner {
+  height: 450px;
+}
+
+h1 {
+  letter-spacing: 1rem;
+}
+
+.c-text-wine {
+  color: rgba(100, 14, 14, 0.824);
+}

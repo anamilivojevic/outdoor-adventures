@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/adventures_style.css" rel="stylesheet" />
+    <title>Outdoor Adventures</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- header ribbon with navigation pane and banner-->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg sticky-top c-bg-dark-green navbar-dark"
+      >
+        <div class="container-fluid">
+          <div class="container d-flex justify-content-between">
+            <div
+              class="col-6 col-lg-3 d-flex justify-content-start align-items-center"
+            >
+              <div class="col-5 p-1 p-lg-2">
+                <img
+                  id="logo"
+                  src="https://cdn.logo.com/hotlink-ok/logo-social.png"
+                  alt="Website logo"
+                />
+              </div>
+              <div class="col-4 col-lg-6 ps-2">
+                <a class="navbar-brand c-text-light-green" href="#">Outdoor!</a>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse col-8"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 c-text-light-green">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Search activities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Contacts</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-light" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="header-banner">
+        <div class="container-fluid d-flex bg-light bg-opacity-50" id="banner">
+          <div
+            class="container d-flex justify-content-center align-items-center"
+          >
+            <h1
+              id="banner-heading"
+              class="text-uppercase fw-normal text-center c-text-dark-green"
+            >
+              Your next outdoor activity!
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid my-4 my-lg-5">
+        <section class="description">
+          <div class="container px-lg-4">
+            <div class="mb-4 py-3">
+              <h3>
+                Explore our top ideas for all the outdoorsy people who are
+                craving adventures.
+              </h3>
+              <p>
+                If you're like me, you probably love spending a lot of time
+                outdoors — be it in a park, natural reserve or even in the
+                skies! However, I often get stuck when planning my next
+                adventure. That's where this guide comes in handy. Here you can
+                find many ideas for your next trip into the wild. Happy
+                exploring!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-3" id="ideas">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+                <div class="card h-100 mb-3 c-text-dark-green c-bg-beige">
+                  <div
+                    class="card-body px-4 pt-4 pb-2 d-flex flex-column justify-content-between"
+                  >
+                    <div>
+                      <h3 class="card-title pt-2 mb-3 text-uppercase">
+                        Via Ferrata
+                      </h3>
+                      <p class="card-text">
+                        Explore beautiful mountains while experiencing the
+                        thrill of looking down steep cliffs. Hiking, climbing
+                        the rocks and enjoying the view from a peak. Nothing
+                        better!
+                      </p>
+                    </div>
+                    <div>
+                      <p class="card-text">
+                        <a
+                          class="text-uppercase text-decoration-none c-text-wine fs-5"
+                          href="#"
+                          >Find out more</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./images/via_ferrata.jpg"
+                    class="card-img-bottom"
+                    alt="Two girls on via ferrata"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+                <div class="card h-100 mb-3 c-text-dark-green c-bg-beige">
+                  <div
+                    class="card-body px-4 pt-4 pb-2 d-flex flex-column justify-content-between"
+                  >
+                    <div>
+                      <h3 class="card-title pt-2 mb-3 text-uppercase">
+                        Canyoning
+                      </h3>
+                      <p class="card-text">
+                        Jump off cliffs, rappel down waterfalls and slide down
+                        natural river-made slides. Enjoy the beautiful
+                        landscapes and cool water during hot summer days with an
+                        extra shot of adrenaline rush!
+                      </p>
+                    </div>
+                    <div>
+                      <p class="card-text text-uppercase">
+                        <a
+                          class="text-uppercase text-decoration-none c-text-wine fs-5"
+                          href="#"
+                          >Find out more</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./images/canyoning.jpg"
+                    class="card-img-bottom"
+                    alt="A girl rappelling down a canyon cliff"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+                <div class="card h-100 mb-3 c-text-dark-green c-bg-beige">
+                  <div
+                    class="card-body px-4 pt-4 pb-2 d-flex flex-column justify-content-between"
+                  >
+                    <div>
+                      <h3 class="card-title pt-2 mb-3 text-uppercase">
+                        Mountain biking
+                      </h3>
+                      <p class="card-text">
+                        Whether only downhill or also uphill, mountain biking is
+                        always exhilarating. Feel the speed of racing down the
+                        forest paths and even mountain ridges — only for the
+                        brave ones!
+                      </p>
+                    </div>
+                    <div>
+                      <p class="card-text text-uppercase">
+                        <a
+                          class="text-uppercase text-decoration-none c-text-wine fs-5"
+                          href="#"
+                          >Find out more</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./images/mtb.jpg"
+                    class="card-img-bottom"
+                    alt="Downhill mountain biking in a forest"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+                <div class="card h-100 mb-3 c-text-dark-green c-bg-beige">
+                  <div
+                    class="card-body px-4 pt-4 pb-2 d-flex flex-column justify-content-between"
+                  >
+                    <div>
+                      <h3 class="card-title pt-2 mb-3 text-uppercase">
+                        Skydiving
+                      </h3>
+                      <p class="card-text">
+                        If you love heights, skydiving is made for you. Watch
+                        the earth from above, feel the excitement of a freefall
+                        and eventually learn how to maneuver midair!
+                      </p>
+                    </div>
+                    <div>
+                      <p class="card-text text-uppercase">
+                        <a
+                          class="text-uppercase text-decoration-none c-text-wine fs-5"
+                          href="#"
+                          >Find out more</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./images/skydiving.jpg"
+                    class="card-img-bottom"
+                    alt="Two people maneuvering while skydiving."
+                  />
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+                <div class="card h-100 mb-3 c-text-dark-green c-bg-beige">
+                  <div
+                    class="card-body px-4 pt-4 pb-2 d-flex flex-column justify-content-between"
+                  >
+                    <div>
+                      <h3 class="card-title pt-2 mb-3 text-uppercase">
+                        Kitesurfing
+                      </h3>
+                      <p class="card-text">
+                        This is for all of you water-adrenaline freaks! Tame the
+                        wind and ski on the water or fly in the air using only a
+                        parachute and a board.
+                      </p>
+                    </div>
+                    <div>
+                      <p class="card-text text-uppercase">
+                        <a
+                          class="text-uppercase text-decoration-none c-text-wine fs-5"
+                          href="#"
+                          >Find out more</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./images/kitesurfing.jpg"
+                    class="card-img-bottom"
+                    alt="A man kitesurfing."
+                  />
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+                <div class="card h-100 mb-3 c-text-dark-green c-bg-beige">
+                  <div
+                    class="card-body px-4 pt-4 pb-2 d-flex flex-column justify-content-between"
+                  >
+                    <div>
+                      <h3 class="card-title pt-2 mb-3 text-uppercase">
+                        Quad biking
+                      </h3>
+                      <p class="card-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Explicabo quas rem illo tenetur tempora
+                        voluptatibus quasi expedita?
+                      </p>
+                    </div>
+                    <div>
+                      <p class="card-text text-uppercase">
+                        <a
+                          class="text-uppercase text-decoration-none c-text-wine fs-5"
+                          href="#"
+                          >Find out more</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./images/quad.jfif"
+                    class="card-img-bottom"
+                    alt="A man riding a quad."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div
+        class="container-fluid c-bg-dark-green c-text-light-green text-center"
+      >
+        <div class="container d-flex justify-content-center py-4">
+          <p class="m-0">Contact us for any suggestions or comments!</p>
+
+          <!-- Photo by <a href="https://unsplash.com/@bettenz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zach Betten</a> on <a href="https://unsplash.com/photos/KYTT8L5JLDs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          Photo by
+            <a
+              href="https://unsplash.com/@clemencebgnx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Clémence Bergougnoux</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/zLIrNgNzPYs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >-->
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

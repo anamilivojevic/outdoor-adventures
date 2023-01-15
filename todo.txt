@@ -1,0 +1,4 @@
+- Adjust body margins for lg
+- Change images
+- Navbar Toggle button in sm and md
+- Find logo
